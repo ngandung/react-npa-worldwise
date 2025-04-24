@@ -4,6 +4,11 @@ import pluginReact from "eslint-plugin-react";
 import { defineConfig } from "eslint/config";
 
 export default defineConfig([
+  // Apply React plugin defaults first
+  pluginReact.configs.flat.recommended,
+  pluginReact.configs.flat['jsx-runtime'],
+
+  // Then apply your custom config so it can override the above
   {
     files: ["**/*.{js,mjs,cjs,jsx}"],
     plugins: { js },
@@ -14,14 +19,12 @@ export default defineConfig([
       },
     },
     rules: {
-      // Turn off the react/react-in-jsx-scope rule
       'react/react-in-jsx-scope': 'off',
-    }
+      'react/prop-types': 'off',
+      'no-unused-vars': 'off',
+    },
+    languageOptions: {
+      globals: globals.browser,
+    },
   },
-  {
-    files: ["**/*.{js,mjs,cjs,jsx}"],
-    languageOptions: { globals: globals.browser },
-  },
-  pluginReact.configs.flat.recommended,
-  pluginReact.configs.flat['jsx-runtime'],
 ]);
