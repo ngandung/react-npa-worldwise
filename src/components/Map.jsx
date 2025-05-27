@@ -42,6 +42,7 @@ export default function Map() {
     [geolocattionPosition]
   );
 
+
   return (
     <div className={styles.mapContainer}>
       {!geolocattionPosition && (
