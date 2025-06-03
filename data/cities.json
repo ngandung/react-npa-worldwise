@@ -23,54 +23,6 @@
         "lng": -3.7133789062500004
       },
       "id": "17806751"
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": "98443197"
-    },
-    {
-      "id": "00c6",
-      "cityName": "Castello de la Plana",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-05-27T07:52:46.839Z",
-      "notes": "Test city",
-      "position": {
-        "lat": "40.013153729849954",
-        "lng": "-0.15071868896484378"
-      }
-    },
-    {
-      "id": "6b83",
-      "cityName": "Pagedangan",
-      "country": "Indonesia",
-      "emoji": "🇮🇩",
-      "date": "2025-05-27T08:01:48.559Z",
-      "notes": "Rumah Gandung",
-      "position": {
-        "lat": "-6.289203735759006",
-        "lng": "106.62365555763246"
-      }
-    },
-    {
-      "id": "2968",
-      "cityName": "Bandar Lampung",
-      "country": "Indonesia",
-      "emoji": "🇮🇩",
-      "date": "2025-05-27T08:03:06.770Z",
-      "notes": "Kampus Gandung",
-      "position": {
-        "lat": "-5.388087446697011",
-        "lng": "105.24074077606203"
-      }
     }
   ]
 }
